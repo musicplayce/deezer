@@ -1,6 +1,8 @@
 # deezer_sdk
 
-A new flutter plugin project.
+A Flutter plugin that allows you to use the Deezer SDK with Flutter. Currently, only supports authentication operation.
+
+![Alt Text](./example/example-gif.gif)
 
 ## Getting Started
 
