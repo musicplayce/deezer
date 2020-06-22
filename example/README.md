@@ -1,5 +1,7 @@
 # deezer_sdk_example
 
+![Alt Text](./example/example-gif.gif)
+
 Demonstrates how to use the deezer_sdk plugin.
 
 ## Getting Started

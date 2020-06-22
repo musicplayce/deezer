@@ -1,3 +1,4 @@
+import 'package:deezer_sdk/models/auth_credentials.dart';
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -15,6 +16,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   User _user;
+  AuthCredentials _credentials;
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +36,7 @@ class _MyAppState extends State<MyApp> {
                     final s = await DeezerSdk.authState;
                     print("teste $s");
                     setState(() {
+                      _credentials = c;
                       _user = u;
                     });
                   },
@@ -42,14 +45,29 @@ class _MyAppState extends State<MyApp> {
               );
             },
           ),
-        ) : Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(_user.name),
-            Text(_user.firstname),
-            Text(_user.lastname),
-          ],
-        ),
+        ) : Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 10
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              Image.network(
+                _user.pictureBig,
+                width: 100,
+                height: 100,
+              ),
+              const SizedBox(height: 5,),
+              Text(_user.name),
+              const SizedBox(height: 5,),
+              Text(
+                "Token: ${_credentials.accessToken}",
+                textAlign: TextAlign.center
+              )
+            ],
+          ),
+        )
       ),
     );
   }

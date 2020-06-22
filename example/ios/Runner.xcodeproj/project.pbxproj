@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DBC2AAB23F3601EA419B5B /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554C6CA2C06D8A1AD92AF04F /* libPods-Runner.a */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
-		86C46C1E2CEAA237AE94A25C /* libPods-Runner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554C6CA2C06D8A1AD92AF04F /* libPods-Runner.a */; };
 		978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */; };
 		97C146F31CF9000F007C117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C146F21CF9000F007C117D /* main.m */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -97,10 +97,10 @@
 				E11F6BB7249FF23900D936DA /* CoreAudio.framework in Frameworks */,
 				E11F6BBB249FF23C00D936DA /* SystemConfiguration.framework in Frameworks */,
 				E11F6B8C249FF17A00D936DA /* libicucore.tbd in Frameworks */,
-				86C46C1E2CEAA237AE94A25C /* libPods-Runner.a in Frameworks */,
 				E11F6BB5249FF23800D936DA /* AudioToolbox.framework in Frameworks */,
 				E11F6BB9249FF23B00D936DA /* MediaPlayer.framework in Frameworks */,
 				E11F6B8B249FF17A00D936DA /* libicucore.A.tbd in Frameworks */,
+				04DBC2AAB23F3601EA419B5B /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
