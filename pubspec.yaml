@@ -1,5 +1,5 @@
 name: deezer_sdk
-description: A new flutter plugin project.
+description: A Flutter plugin that allows you to use the Deezer SDK with Flutter.
 version: 0.0.2
 author:
 homepage:
