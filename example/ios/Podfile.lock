@@ -1,0 +1,29 @@
+PODS:
+  - deezer2 (0.2.0)
+  - deezer_sdk (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - deezer2
+  - deezer_sdk (from `.symlinks/plugins/deezer_sdk/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - deezer2
+
+EXTERNAL SOURCES:
+  deezer_sdk:
+    :path: ".symlinks/plugins/deezer_sdk/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  deezer2: 0841b591bdc5c602f46c331d985fc5a82b14727b
+  deezer_sdk: 647b3843ac7173c9fa12e9c1a57f9093ddcdf3dc
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: 92f3e10fb7f45d12def47a99cb229f02df47abcc
+
+COCOAPODS: 1.9.1
