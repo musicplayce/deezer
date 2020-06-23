@@ -10,7 +10,7 @@ First, you need to go to [Deezer Developers](https://developers.deezer.com/) web
 
 ## Android integration
 
-First, you need to follow the install instructions in Deezer Developers in order to install
+First, you need to follow the install [instructions](https://developers.deezer.com/sdk/android#android_studio) in Deezer Developers in order to install
 the android SDK in your application.
 
 You also need to add this line in your AndroidManifest.xml in order to enable this library
@@ -21,7 +21,10 @@ that Deezer SDK needs to use in Android.
     package="br.com.musicplayce.deezer_sdk_example">
     ...
     <!-- add this permissions -->
-
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    
     <application
         android:name="io.flutter.app.FlutterApplication"
         android:label="deezer_sdk_example"
@@ -35,11 +38,11 @@ that Deezer SDK needs to use in Android.
 
 ## iOS integration
 
-First, you need to follow the install instructions in Deezer Developers in order to install
+First, you need to follow the install [instructions](https://developers.deezer.com/sdk/ios#_quick_start) in Deezer Developers in order to install
 the android SDK in your application. 
 
-After install de SDK, you will need to disable the use_frameworks! clause in your Podfile if
-is enabled.
+After install de SDK, you will need to disable the use_frameworks! clause in your Podfile if is enabled. You also need to manually run pod install
+inside your ios/ folder, in order to install all the dependencies correctly.
 
 ```ruby
 target 'Runner' do

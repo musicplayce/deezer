@@ -1,3 +1,7 @@
+## 0.0.3
+### Added
+- Adding README with instructions
+
 ## 0.0.2
 ### Added
 - Complete authentication with Deezer

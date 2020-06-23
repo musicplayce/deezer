@@ -1,8 +1,7 @@
 name: deezer_sdk
 description: A Flutter plugin that allows you to use the Deezer SDK with Flutter.
-version: 0.0.2
-author:
-homepage:
+version: 0.0.3
+repository: https://github.com/musicplayce/deezer
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
